@@ -1,0 +1,12 @@
+spring:
+    devtools:
+        restart:
+            enabled: true
+
+liquibase:
+    contexts: dev
+
+server:
+    port: 8081
+
+debug: true
